@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Dual
-        content={"Welcome To"}
+        content={"Hi Reactoy"}
         width={500}
         height={120}
         color={["#25F4EE", "white", "#FE2C55"]}
