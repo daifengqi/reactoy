@@ -12,7 +12,7 @@ export interface DualProps {
   fontWeight: string;
   letterSpacing: number;
   offset: Offset;
-  top: boolean;
+  default?: boolean;
 }
 
 interface ParentProps {

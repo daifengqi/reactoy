@@ -44,7 +44,7 @@ const Dual: React.FC<DualProps> = (props) => {
         width={props.width}
         height={props.height}
       >
-        {top ? (
+        {props.default ? (
           <>
             <Text
               parent={parent}
@@ -69,14 +69,14 @@ const Dual: React.FC<DualProps> = (props) => {
           <>
             <Text
               parent={parent}
-              x={offset + offset}
-              y={props.fontSize + 2 * offset}
+              x={2 * offset}
+              y={props.fontSize + offset}
               fill={props.color[2]}
             ></Text>
             <Text
               parent={parent}
-              x={offset}
-              y={props.fontSize}
+              x={0}
+              y={props.fontSize + offset}
               fill={props.color[0]}
             ></Text>
             <Text
