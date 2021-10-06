@@ -36,7 +36,7 @@ function App() {
 }
 ```
 
-![dual.png](https://i.loli.net/2021/10/05/pzhUdBAca5euINf.png)
+<img src="https://i.loli.net/2021/10/05/pzhUdBAca5euINf.png" width="700" height="200">
 
 # ps
 
