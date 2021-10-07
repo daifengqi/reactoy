@@ -11,7 +11,7 @@ export interface DualProps {
     fontWeight: string;
     letterSpacing: number;
     offset: Offset;
-    default?: boolean;
+    shadow?: boolean;
 }
 interface ParentProps {
     letterSpacing: number;

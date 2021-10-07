@@ -29,7 +29,7 @@ function App() {
         fontWeight={"bold"}
         offset={"lg"}
         letterSpacing={2}
-        default
+        shadow
       />
     </>
   );
