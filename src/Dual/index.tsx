@@ -44,7 +44,7 @@ const Dual: React.FC<DualProps> = (props) => {
         width={props.width}
         height={props.height}
       >
-        {props.default ? (
+        {props.shadow ? (
           <>
             <Text
               parent={parent}
